@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="task-tracker-api.main:Web exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/task_tracker_api_main_Web_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="task-tracker-api.main/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="javaee-facet-classes" facet="task-tracker-api.main/web/Web" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
