@@ -9,8 +9,8 @@ import org.springframework.stereotype.Component;
 
 import java.util.stream.Collectors;
 
-@RequiredArgsConstructor
 @FieldDefaults(level = AccessLevel.PRIVATE, makeFinal = true)
+@RequiredArgsConstructor
 @Component
 public class TaskStateDtoFactory {
 
@@ -19,6 +19,7 @@ public class TaskStateDtoFactory {
     public TaskStateDto makeTaskStateDto(TaskStateEntity entity) {
 
         return TaskStateDto.builder()
+
                 .id(entity.getId())
                 .name(entity.getName())
                 .createdAt(entity.getCreatedAt())
